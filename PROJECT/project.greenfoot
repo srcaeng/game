@@ -1,7 +1,7 @@
 #Greenfoot project file
 class.Batu1.image=batu1.png
 class.Batu1.superclass=Musuh
-class.Daun.image=bomb.png
+class.Daun.image=daun.png
 class.Daun.superclass=Musuh
 class.GameOver.image=game_over.png
 class.GameOver.superclass=greenfoot.Actor
@@ -96,9 +96,9 @@ dependency8.type=UsesDependency
 dependency9.from=bg2
 dependency9.to=Tarzan
 dependency9.type=UsesDependency
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
+editor.fx.0.height=738
+editor.fx.0.width=816
+editor.fx.0.x=275
 editor.fx.0.y=0
 mainWindow.height=768
 mainWindow.width=1096
