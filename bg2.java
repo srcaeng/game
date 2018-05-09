@@ -10,6 +10,7 @@ public class bg2 extends World
 {
     Tarzan tarzan = new Tarzan ();
     TarzanCewek tarzancewek = new TarzanCewek ();
+    
     //Daun daun = new Daun();
     int loop=0;
     //Batu2 batu2 = new Batu2();

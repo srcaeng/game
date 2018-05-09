@@ -27,9 +27,9 @@ public class bg1 extends World
         super(800, 301, 1,false);
         addObject (jalan,this.getWidth()/2,this.getHeight()/1);
         addObject (tarzan,this.getWidth()-750,this.getHeight()-70);
-        addObject (pohon,this.getWidth()-30,this.getHeight()-175);
+        addObject (pohon,this.getWidth()-30,this.getHeight()-125);
         addObject (kelinci,this.getWidth()-650,this.getHeight()-210);
-        addObject (harimau,this.getWidth()-230,this.getHeight()-90);
+        addObject (harimau,this.getWidth()-230,this.getHeight()-80);
         //addObject (batu1,this.getWidth()-20,this.getHeight()-50);
     }
     public void act(){
