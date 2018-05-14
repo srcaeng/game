@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class bg2 extends World
 {
+    Jalan jalan = new Jalan ();
     Tarzan tarzan = new Tarzan ();
     TarzanCewek tarzancewek = new TarzanCewek ();
     
@@ -22,7 +23,7 @@ public class bg2 extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(800, 494, 1,false);
-        
+        addObject (jalan,this.getWidth()/2,this.getHeight()/1);
         addObject(tarzan,this.getWidth()-750,this.getHeight()- 10);
         addObject(tarzancewek,this.getWidth()-40,this.getHeight()-80);
         //addObject(daun,this.getWidth()-90,this.getHeight()-80);
