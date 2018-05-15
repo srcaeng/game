@@ -42,6 +42,9 @@ public class Tarzan extends Actor{
     {
         if("space".equals(Greenfoot.getKey()))
         {
+            GreenfootSound gts=new GreenfootSound("jump.wav");
+            gts.setVolume(100);
+            gts.play();
             ySpeed=-18;
             setLocation(getX(),getY()+ySpeed);
         }
