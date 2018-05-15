@@ -14,6 +14,6 @@ public class Daun extends Musuh
      */
     public void act() 
     {
-        move (-15);
+        move (-10);
     }    
 }
