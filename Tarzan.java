@@ -42,7 +42,7 @@ public class Tarzan extends Actor{
     {
         if("space".equals(Greenfoot.getKey()))
         {
-            ySpeed=-18;
+            ySpeed=-17;
             setLocation(getX(),getY()+ySpeed);
         }
     }
