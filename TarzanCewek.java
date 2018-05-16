@@ -17,8 +17,8 @@ public class TarzanCewek extends Actor
          if (getOneIntersectingObject(Tarzan.class)!=null){
         Greenfoot.stop ();
         getWorld().addObject (new Piala(),
-        getWorld().getWidth()-400,
-        getWorld().getHeight()-100);
+        getWorld().getWidth()-390,
+        getWorld().getHeight()-295);
     }
   
  }    
