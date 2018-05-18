@@ -48,6 +48,10 @@ public class Tarzan extends Actor{
     }
     
     if (getOneIntersectingObject(Batu1.class)!=null){
+        Greenfoot.Sound gts=new GreenfootSound("Gameover.midi");
+        gts.volume(100);
+        gts.play();
+        
         Greenfoot.stop ();
         getWorld().addObject (new GameOver(),
         getWorld().getWidth()/2,
