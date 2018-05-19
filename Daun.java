@@ -14,6 +14,9 @@ public class Daun extends Musuh
      */
     public void act() 
     {
+        GreenfootSound gts=new GreenfootSound("tembak.mp3");
+        gts.setVolume(100);
+        gts.play();
         move (-5);
     }    
 }
