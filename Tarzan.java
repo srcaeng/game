@@ -9,8 +9,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Tarzan extends Actor{
     private int ySpeed;
     private int vSpeed=0;
-    private int X=45;
-    private int Y=238;
+    private int X=40;
+    private int Y=230;
     
     
     public Tarzan()
