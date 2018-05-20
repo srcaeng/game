@@ -58,7 +58,7 @@ public class Tarzan extends Actor{
         getWorld().getHeight()/2);
     }
     if (getOneIntersectingObject(Daun.class)!=null){
-        GreenfootSound gts=new GreenfootSound("Up.mp3");
+       GreenfootSound gts=new GreenfootSound("Up.mp3");
         gts.setVolume(100);
         gts.play();
         
@@ -70,15 +70,9 @@ public class Tarzan extends Actor{
 }
 private void checkKeys(){
     if(Greenfoot.isKeyDown("left")){
-        GreenfootSound gts=new GreenfootSound("Up.mp3");
-        gts.setVolume(100);
-        gts.play();
         move(-3);
     }
     if(Greenfoot.isKeyDown("right")){
-        GreenfootSound gts=new GreenfootSound("Up.mp3");
-        gts.setVolume(100);
-        gts.play();
         move(3);
     }
 }
